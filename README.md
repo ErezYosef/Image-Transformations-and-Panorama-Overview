@@ -25,7 +25,7 @@ To find the matrix `H` we need at least 4 matching points. We get the system:
 
 <img src="images/c.png" width="400"><br>
 
-More matching points will provide a better estimation for `H` params, but the data may contains outliers.
+More matching points will provide a better estimation for `H` params, but the data may contain outliers.
 
 ### Outliers :
 
@@ -57,7 +57,7 @@ Forward mapping *(from src to dst)* :   this mapping may create artifacts in the
 </p>
 
 ### Backward Mapping:
-Backward mapping *(from dst to src values)* :   We can see that we get good result.
+Backward mapping *(from dst to src values)* :   We can see that we get a good result.
 
  <p align="center">
  <img src="images/fig_bmp.jpg" width="400"><br>
