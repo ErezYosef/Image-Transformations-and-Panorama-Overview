@@ -39,8 +39,15 @@ The naive estimation using all the matching points will provide the transform:
 We can see that this transformation is not matched the Homography transformation between the images, because of the outliers in the data.
  
 We used RANSAC algorithm to deal with the outliers and get the correct parameters of the transformation.
+## Mapping:
 
-## Forward Mapping:
+ <p align="center">
+ <img src="images/65.png" width="400"><br>
+  Forward and backward image warping <i>Non-rigid Registration Using Free-form Deformations, Loren Arthur Schwarz.
+</i>
+</p>
+
+### Forward Mapping:
 Forward mapping *(from src to dst)* :   this mapping may create artifacts in the transformed image:
 
  <p align="center">
@@ -49,7 +56,7 @@ Forward mapping *(from src to dst)* :   this mapping may create artifacts in the
 </i>
 </p>
 
-## Backward Mapping:
+### Backward Mapping:
 Backward mapping *(from dst to src values)* :   We can see that we get good result.
 
  <p align="center">
