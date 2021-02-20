@@ -42,8 +42,8 @@ We used RANSAC algorithm to deal with the outliers and get the correct parameter
 ## Mapping:
 
  <p align="center">
- <img src="images/65.png" width="400"><br>
-  Forward and backward image warping <i>Non-rigid Registration Using Free-form Deformations, Loren Arthur Schwarz.
+ <img src="images/65.png" width="600"><br>
+  Forward and backward image warping. <i>Non-rigid Registration Using Free-form Deformations, Loren Arthur Schwarz.
 </i>
 </p>
 
